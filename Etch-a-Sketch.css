@@ -14,13 +14,13 @@ body {
   border: 2px solid #333;
 }
 
-#grid-size-button {
+#grid-size-button, #reset-button {
   margin-bottom: 10px;
   padding: 5px 10px;
   font-size: 16px;
 }
 
-#grid-size-button-div {
+#button-div {
   padding: 5px 10px;
   margin: 10px;
 }

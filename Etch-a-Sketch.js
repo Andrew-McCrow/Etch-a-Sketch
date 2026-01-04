@@ -32,3 +32,12 @@ gridSizeButton.addEventListener('click', () => {
     newSize = Math.min(Math.max(parseInt(newSize), 1), 100);
     createGrid(newSize);
 });
+
+// Reset button functionality
+const resetButton = document.getElementById('reset-button');
+resetButton.addEventListener('click', () => {
+    const cells = document.querySelectorAll('.cell');
+    cells.forEach(cell => {
+        cell.style.backgroundColor = 'white';
+    });
+});
