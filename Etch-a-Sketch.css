@@ -1,0 +1,21 @@
+#etch-a-sketch {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #333;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.cell {
+  flex: 1;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+.cell:hover {
+  background-color: black;
+}
