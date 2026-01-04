@@ -1,9 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;      /* stack children vertically */
+    align-items: center;         /* center horizontally */
+    margin: 0;                   /* remove default margin */
+    font-family: sans-serif;
+}
+
 #etch-a-sketch {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   border: 2px solid #333;
+}
+
+#grid-size-button {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+#grid-size-button-div {
+  padding: 5px 10px;
+  margin: 10px;
 }
 
 .row {
