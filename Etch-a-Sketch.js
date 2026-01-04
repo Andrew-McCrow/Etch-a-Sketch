@@ -14,8 +14,8 @@ function createGrid(size) {
     }
 
     // Add hover effect to cells
-const cells = document.querySelectorAll('.cell');
-cells.forEach(cell => {
+    const cells = document.querySelectorAll('.cell');
+    cells.forEach(cell => {
     cell.addEventListener('mouseover', () => {
         cell.style.backgroundColor = 'black';
     });
